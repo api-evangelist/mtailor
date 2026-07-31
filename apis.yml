@@ -1,7 +1,29 @@
 aid: mtailor
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mtailor.png
 name: Mtailor
-description: Mtailor is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MTailor is a Y Combinator-backed custom-clothing company that measures your
+  body with your phone's camera and manufactures made-to-order apparel on
+  demand. Its mobile apps capture a short video or 360-degree turn and use
+  machine-learning models to compute roughly 60 body measurements, which the
+  company claims are about 20 percent more accurate than a professional tailor.
+  MTailor produces custom shirts, polos, tees, pants, jeans, blazers and suits
+  for men and jeans for women, each cut to the customer's unique measurement
+  pattern. The business is a direct-to-consumer mobile app and e-commerce brand;
+  as of this profile it publishes no public developer API, developer portal,
+  OpenAPI definition, or first-party SDK. This APIs.json profile captures the
+  company's identity and public web properties for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/mtailor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Custom Clothing
+- Apparel
+- E-Commerce
+- Body Measurement
+- Machine Learning
+- Mobile App
+- Made to Order
+- Fashion Tech
+- Direct to Consumer
 apis: []
+common:
+- type: Website
+  url: https://www.mtailor.com/
+- type: GettingStarted
+  url: https://www.mtailor.com/how-it-works
+- type: Support
+  url: https://www.mtailor.com/faq
+- type: GitHubOrganization
+  url: https://github.com/MTailor
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
