@@ -51,7 +51,7 @@ tags:
 - Apparel
 - E-Commerce
 - Body Measurement
-- Machine-Learning
+- Machine Learning
 - Mobile App
 - Made to Order
 - Fashion Tech
@@ -67,6 +67,7 @@ tags_raw:
 - Made to Order
 - Fashion Tech
 - Direct to Consumer
+- Machine-Learning
 apis: []
 common:
 - type: Website
